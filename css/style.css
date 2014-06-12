@@ -1,0 +1,103 @@
+body{
+	background: url(../img/grey_wash_wall_@2X.png);
+	font-family: arial, sans-serif;
+}
+footer, #container{
+	width: 100%;
+}
+#footer, #content{
+	width: 754px;
+	margin: 0 auto;
+}
+#content{
+	margin: 50px auto;
+	background:  #fff;
+	border-radius: 10px;
+	padding: 40px;
+	width: 644px;
+	overflow: hidden;
+	box-shadow: 0 0 170px -40px black;
+	position: relative;
+}
+#content img{
+	width: 130px;
+	border-radius: 90px;
+}
+footer{
+	height: 20px;
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	padding: 20px 0;
+	box-shadow: 20px 0 40px -20px black;
+}
+#logo a{
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	display: block;
+	color: #2ecc71;
+	text-decoration: none;
+	display: none;
+}
+#avatar{
+	width: 130px;
+	height: 130px;
+	border-radius: 100px;
+	padding: 4px;
+	border: 2px solid #bdc3c7;
+	float: left;
+	margin: 0 30px 0 0;
+	box-shadow: 1px 1px 20px -9px black;
+}
+h1{
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-left: 40px;
+	overflow: hidden;
+	background: url(../img/picto/persona.png) no-repeat;
+}
+ul li{
+	line-height: 1.8em;
+	font-size: .9em;
+	padding-left: 30px;
+}
+ul{
+	overflow: hidden;
+}
+.email{
+	background: url(../img/picto/mail.png) 6px center no-repeat;
+	background-size: 17px;
+}
+.sexe{
+	background: url(../img/picto/sexe.png) 6px center no-repeat;
+	background-size: 17px;
+}
+.tel{
+	background: url(../img/picto/tel.png) 6px center no-repeat;
+	background-size: 17px;
+}
+.adr{
+	background: url(../img/picto/maison.png) 6px center no-repeat;
+	background-size: 17px;
+}
+#rafraich{
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	display: block;
+	right: 20px;
+	top: 20px;
+	text-indent: -9999px;
+	background: url(../img/picto/raf.png) no-repeat;
+}
+@media all and (max-width: 758px){
+	#footer, #content{
+		width: 96%;
+		margin: 0 1%;
+		padding: 1%;
+	}
+}
