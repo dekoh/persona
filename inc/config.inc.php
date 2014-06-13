@@ -3,7 +3,7 @@
 
 	$userdb = "root";
 
-	$passdb = "";
+	$passdb = "root";
 
 	$nomdb = "persona";
 

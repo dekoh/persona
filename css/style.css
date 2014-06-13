@@ -60,12 +60,12 @@ h1{
 	overflow: hidden;
 	background: url(../img/picto/persona.png) no-repeat;
 }
-ul li{
+ul.infos li.ele{
 	line-height: 1.8em;
 	font-size: .9em;
 	padding-left: 30px;
 }
-ul{
+ul.infos{
 	overflow: hidden;
 }
 .email{
@@ -94,6 +94,15 @@ ul{
 	text-indent: -9999px;
 	background: url(../img/picto/raf.png) no-repeat;
 }
+/* Admin */
+.col{
+	float: left;
+	margin-left: 20px;
+}
+#content.adm{
+	width: 1024px;
+}
+
 @media all and (max-width: 758px){
 	#footer, #content{
 		width: 96%;

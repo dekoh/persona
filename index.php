@@ -51,11 +51,11 @@
                     </div>
                     <h1 class="nom"><?php echo ucfirst($prenom)." ".ucfirst($nom); ?></h1>
 
-                    <ul>
-                        <li class="email"><?php echo  strtolower(stripAccents($prenom)).".". strtolower(stripAccents($nom))."@email.com"; ?></li>
-                        <li class="sexe"><?php echo $sx; ?></li>
-                        <li class="tel"><?php echo "0".rand(6,7)." ".rand(0,9).rand(0,9)." ".rand(0,9).rand(0,9)." ".rand(0,9).rand(0,9)." ".rand(0,9).rand(0,9); ?></li>
-                        <li class="adr"><?php echo rand(1,200); ?> Rue du puits</li>
+                    <ul class="infos">
+                        <li class="email ele"><?php echo  strtolower(stripAccents($prenom)).".". strtolower(stripAccents($nom))."@email.com"; ?></li>
+                        <li class="sexe ele"><?php echo $sx; ?></li>
+                        <li class="tel ele"><?php echo "0".rand(6,7)." ".rand(0,9).rand(0,9)." ".rand(0,9).rand(0,9)." ".rand(0,9).rand(0,9)." ".rand(0,9).rand(0,9); ?></li>
+                        <li class="adr ele"><?php echo rand(1,200); ?> Rue du puits</li>
                     <ul>
                     <a href="f/.." id="rafraich">raf</a>
                  </div>
