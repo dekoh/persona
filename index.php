@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" /> 
 		<link rel="shortcut icon" type="image/png" href="favicon.png" />
   	    <link rel="icon" type="image/png" href="favicon.png" />
+  	    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
     	<?php
